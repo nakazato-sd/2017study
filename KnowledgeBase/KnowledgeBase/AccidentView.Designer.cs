@@ -163,7 +163,7 @@
             this.Controls.Add(this.load);
             this.Controls.Add(this.save);
             this.Name = "AccidentView";
-            this.Text = "Form1";
+            this.Text = "現地事故連絡票";
             ((System.ComponentModel.ISupportInitialize)(this.accidentModelBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
