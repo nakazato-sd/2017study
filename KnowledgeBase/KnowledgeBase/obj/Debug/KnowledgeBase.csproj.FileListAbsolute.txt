@@ -10,3 +10,6 @@ c:\users\administrator.t-16-0301-108\documents\visual studio 2015\Projects\Knowl
 C:\Users\Administrator.T-16-0301-108\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\bin\Debug\KnowledgeBase.exe.config
 C:\Users\Administrator.T-16-0301-108\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\obj\Debug\KnowledgeBase.exe
 C:\Users\Administrator.T-16-0301-108\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\obj\Debug\KnowledgeBase.pdb
+C:\Users\takahide.okumura\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\bin\Debug\KnowledgeBase.exe.config
+C:\Users\takahide.okumura\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\obj\Debug\KnowledgeBase.exe
+C:\Users\takahide.okumura\Documents\GitHub\2017study\KnowledgeBase\KnowledgeBase\obj\Debug\KnowledgeBase.pdb
