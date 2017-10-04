@@ -32,11 +32,15 @@
             this.save = new System.Windows.Forms.Button();
             this.load = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.accidentModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.accidentModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.accidentModelBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,6 +73,10 @@
             this.textBox1.Size = new System.Drawing.Size(100, 19);
             this.textBox1.TabIndex = 3;
             // 
+            // accidentModelBindingSource
+            // 
+            this.accidentModelBindingSource.DataSource = typeof(KnowledgeBase.AccidentModel);
+            // 
             // textBox2
             // 
             this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.accidentModelBindingSource, "Date2", true));
@@ -93,10 +101,6 @@
             this.textBox4.Size = new System.Drawing.Size(100, 19);
             this.textBox4.TabIndex = 6;
             // 
-            // accidentModelBindingSource
-            // 
-            this.accidentModelBindingSource.DataSource = typeof(KnowledgeBase.AccidentModel);
-            // 
             // richTextBox1
             // 
             this.richTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.accidentModelBindingSource, "Version", true));
@@ -106,11 +110,51 @@
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(90, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(17, 12);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "版";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(90, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "作成日";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(90, 103);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "作成者";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(90, 140);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 12);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "発生日";
+            // 
             // AccidentView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 337);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -119,7 +163,7 @@
             this.Controls.Add(this.load);
             this.Controls.Add(this.save);
             this.Name = "AccidentView";
-            this.Text = "Form1";
+            this.Text = "現地事故連絡票";
             ((System.ComponentModel.ISupportInitialize)(this.accidentModelBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -135,6 +179,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.BindingSource accidentModelBindingSource;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
